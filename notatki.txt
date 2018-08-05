@@ -1,0 +1,14 @@
+-cache redis
+https://medium.com/@MatthewFTech/spring-boot-cache-with-redis-56026f7da83a
+
+1) dodac sonarcube
+https://blog.knoldus.com/how-to-integrate-your-maven-project-with-sonarqube/
+2) dodac mysql jak zrodlo - jpa i redis jako cache
+3) zrobic tutorial z kafka. czyli mysql - kafka -> redis?
+
+
+--nowe adnotacje
+http://www.baeldung.com/spring-new-requestmapping-shortcuts
+
+--rest
+https://spring.io/guides/tutorials/bookmarks/
