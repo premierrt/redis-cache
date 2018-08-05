@@ -1,6 +1,8 @@
 package boot_redis_cache.model;
 
-public class Osoba {
+import java.io.Serializable;
+
+public class Osoba implements Serializable {
 
 	private Integer id;
 	private String imie;
@@ -42,6 +44,11 @@ public class Osoba {
 	}
 	public void setNumer(Integer numer) {
 		this.numer = numer;
+	}
+
+	@Override
+	public String toString() {
+		return "Osoba [id=" + id + ", imie=" + imie + ", nazwisko=" + nazwisko + ", numer=" + numer + "]";
 	}
 	
 	

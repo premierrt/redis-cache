@@ -12,3 +12,9 @@ http://www.baeldung.com/spring-new-requestmapping-shortcuts
 
 --rest
 https://spring.io/guides/tutorials/bookmarks/
+
+
+---redis:
+keys *
+127.0.0.1:6379> keys osoby::6 
+get osoby::6 

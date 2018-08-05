@@ -30,7 +30,7 @@ public void setOsobaService(OsobaService osobaService) {
 	this.osobaService = osobaService;
 }
 
-//@Cacheable (value="osoby", key="#id")
+@Cacheable (value="osoby", key="#id")
 @GetMapping(value="/osoba/{id}")
 public Osoba getOsobaByID(@PathVariable Integer id){
 	log.info("=========== Pobieram osobe "+" "+ id);
